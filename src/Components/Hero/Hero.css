@@ -1,0 +1,21 @@
+
+.hero img{
+    width:80%;
+    animation: float 6s ease-in-out infinite;
+}
+
+#ringImg{
+    filter: drop-shadow(0rem 0rem 1rem lightgray);
+
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
