@@ -7,6 +7,10 @@ const Services = () => {
   return (
     <div className="servicesContainer">
       <ul className="listContainer">
+        <h2 className="servicesTitle">
+          With MeRing program, here is an exmaple of the services We provide
+          with our MeRing Application
+        </h2>
         <li id="listItem">
           <img src={NonStop}></img>
           <h1>24-Hours Monitoring</h1>
@@ -20,7 +24,7 @@ const Services = () => {
           <h1>Doctor's Recommendation</h1>
           <p>
             As you are being monitored for your own health status, a doctor can
-            advice for recommended healtch checks.
+            advice for a recommended health check fitted for you.
           </p>
         </li>
         <li id="listItem">

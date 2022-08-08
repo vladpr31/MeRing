@@ -112,3 +112,65 @@ overflow: hidden;
  .readMoreBtn:active:before {
   background: #b9b9b9;
  }
+
+ @media screen and (max-width:768px)
+ {
+  .home-container
+  {
+    display: inline-block;
+    width: 100%;
+  }
+  .leftSide{
+   display: inline-block;
+  }
+  .rightSide{
+    margin-left:20%;
+  }
+  .leftSide{
+    text-align: left;
+    margin:45px 0;
+  }
+  .readMoreBtn {
+    margin-top:45px;
+    width: 140px;
+    height: 45px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+    margin-bottom:45px;
+    margin-left:65%;
+   }
+   .leftSide h2{
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-bottom: 25px;
+    margin-left:10px;
+  }
+  .leftSide h1{
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-left:10px;
+  }
+  .leftSide h3{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width:100%;
+    text-align:center;
+    margin-left: 50%;
+    margin-top:15%;
+  }
+ }

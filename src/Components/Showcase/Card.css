@@ -50,3 +50,27 @@ body{
 	transform: translateX(-50%);
 }
 
+@media screen and (max-width:768px) {
+    
+    .rightSlide,.leftSlide{
+        visibility: hidden;
+    }
+    .centerSlide{
+        transform: scale(0.65);
+        
+    }
+    .slideContent{
+        display:inline;
+        transform: scale(0.65);
+        
+    }
+    .slideContent img{
+        width: 50%;
+    }
+    .slideContentInner{
+        color:white;
+        border:2px solid;
+        box-shadow: rgba(149, 157, 165, 1) 0px 3px 24px;
+        width: 100%;
+    }
+}

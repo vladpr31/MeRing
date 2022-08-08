@@ -9,11 +9,21 @@ import Footer from "../src/Components/Footer/Footer";
 const App = () => {
   return (
     <>
-      <Header />
-      <Home />
-      <Services />
-      <About />
-      <Showcase />
+      <section id="header">
+        <Header />
+      </section>
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="showcase">
+        <Showcase />
+      </section>
     </>
   );
 };

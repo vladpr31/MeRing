@@ -30,6 +30,7 @@ const Showcase = () => {
       <button className="prevSlide" onClick={prevHandler}>
         ≺
       </button>
+      <h1 className="showcaseTitle">Our Mobile Application</h1>
       <div className="slidesContainer">
         {index - 1 > 0 ? (
           <Card slide={slides[index - 1]} className="leftSlide" />

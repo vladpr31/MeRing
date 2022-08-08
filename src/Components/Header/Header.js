@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import logo from "../../Assets/logo.png";
+import { Link } from "react-scroll";
+
 import "./Header.css";
 const Header = () => {
   return (
@@ -19,16 +21,64 @@ const Header = () => {
         </div>
         <nav className="nav">
           <li>
-            <a href="/design">Home</a>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/strategy">About</a>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="/cases">Showcase</a>
+            <Link
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Services
+            </Link>
           </li>
           <li>
-            <a href="/about">Contact</a>
+            <Link
+              activeClass="active"
+              to="showcase"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Showcase
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Contact Us
+            </Link>
           </li>
         </nav>
         <div className="hamburger-menu">

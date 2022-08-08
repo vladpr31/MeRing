@@ -15,7 +15,9 @@ const About = () => {
       <div className="container">
         <div className="front side">
           <div className="content">
-            <h1 className="cardTitle">Target Population</h1>
+            {window.screen.width < 768 ? null : (
+              <h1 className="cardTitle">Target Population</h1>
+            )}
           </div>
         </div>
         <div className="back side">

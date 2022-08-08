@@ -2,6 +2,7 @@ import login from "../../Assets/MockUps/login.png";
 import mainscreen from "../../Assets/MockUps/mainscreen.png";
 import stats from "../../Assets/MockUps/statistics.png";
 import DrDetails from "../../Assets/MockUps/doctorDetails.png";
+import Services from "../../Assets/MockUps/Doctors.png";
 export const Slides = [
   {
     image: login,
@@ -26,5 +27,11 @@ export const Slides = [
     title: "Medical Staff Information",
     caption:
       "Get details and information about your chosen doctor, such as Location,Services,Rating and more!",
+  },
+  {
+    image: Services,
+    title: "Medical Services",
+    caption:
+      "Get to choose which treatment you would like to get at a click of a button.",
   },
 ];
