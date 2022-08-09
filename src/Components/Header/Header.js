@@ -19,7 +19,7 @@ const Header = () => {
         <div className="logo">
           m<img src={logo}></img>ing
         </div>
-        <nav className="nav">
+        <nav className="navBar">
           <li>
             <Link
               activeClass="active"

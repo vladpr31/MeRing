@@ -3,8 +3,7 @@
   height: 120px;
   display: flex;
   justify-content: center;
-  padding: 0 20px;
-
+  color:white;
 }
 
 .header-inner {
@@ -27,7 +26,7 @@
       width:10%;
       margin: 0 5px;
     }
-.nav {
+.navBar {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -36,16 +35,16 @@
       transform: translateX(-50%);
       
     }
-.nav li {
+.navBar li {
         list-style: none;
         margin: 0 40px;
       }
-.nav a {
+.navBar a {
           text-decoration: none;
         color: white;
           white-space: nowrap;
         }
-        .nav a:hover {
+        .navBar a:hover {
           text-decoration: none;
           color: turquoise;
           white-space: nowrap;

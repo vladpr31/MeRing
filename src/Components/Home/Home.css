@@ -27,14 +27,14 @@ overflow: hidden;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   padding:0;
-  margin:0;
+  margin-bottom:5%;
 }
 .leftSide h1{
   color: white;
   font-size: 74px;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  margin:0;
+  margin-top:5%;
   padding:0;
 }
 .leftSide span{
@@ -48,7 +48,7 @@ overflow: hidden;
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
-  margin:0;
+  margin-top:5%;
   padding:0;
 }
 .leftSide .spanPlus{

@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import Services from "./Components/AboutServices/Services";
 import About from "./Components/About/About";
 import Showcase from "./Components/Showcase/Showcase";
+import Subscription from "./Components/Subscription/Subscription";
 import Footer from "../src/Components/Footer/Footer";
 const App = () => {
   return (
@@ -23,6 +24,12 @@ const App = () => {
       </section>
       <section id="showcase">
         <Showcase />
+      </section>
+      <section id="subscription">
+        <Subscription />
+      </section>
+      <section id="footer">
+        <Footer />
       </section>
     </>
   );

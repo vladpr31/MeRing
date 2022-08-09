@@ -1,6 +1,7 @@
 .showcaseContainer{
     height: 100%;
     margin-top:10%;
+    animation: 1s moveFromLeft; 
 }
 .showcaseTitle{
     font-size: 70px;
@@ -15,6 +16,10 @@
     font-size: 65px;
     background-color: transparent;
     color:greenyellow;
+    padding:2%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis
 }
 
 .prevSlide{
@@ -24,16 +29,17 @@
     left:0;
     background-color: transparent;
     color:greenyellow;
+    padding:2%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis
 }
 .prevSlide:hover,.nextSlide:hover{
-    background-color: rgba(167, 167, 166, 0.234);
-    opacity: 0.2;
-    color:white;
-}
-.prevSlide:focus,.nextSlide:focus{
+    background-color: rgba(167, 167, 166, 0.1);
+    opacity: 1;
     color:greenyellow;
-
 }
+
 
 @media screen and (max-width:768px) {
     .showcaseContainer{

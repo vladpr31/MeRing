@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-container">
-      <div className="leftSide">
+      <div className="col-md-6 leftSide">
         <h2>Keep Track Of Your Loved Ones</h2>
         <h1>
           <span className="highlight">MeRing a Life Savior.</span>
@@ -12,7 +12,7 @@ function Home() {
         <h3>A health tracker which allows constant vitals monitoring.</h3>
         <button className="readMoreBtn">Read More</button>
       </div>
-      <div className="rightSide">
+      <div className="cold-md-6 rightSide">
         <Hero />
       </div>
     </div>

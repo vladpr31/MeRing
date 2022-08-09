@@ -4,7 +4,8 @@ body{
 
 .slideContent{
     display:inline-block;
-    margin:5% 2%;
+    margin:0% 2%;
+    margin-bottom:5%;
     transform: scale(0.75);
 }
 
@@ -50,6 +51,23 @@ body{
 	transform: translateX(-50%);
 }
 
+
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-1500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+  }
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(1500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+  }
 @media screen and (max-width:768px) {
     
     .rightSlide,.leftSlide{
