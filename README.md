@@ -27,3 +27,14 @@ For now it's still work in progress as I do try new stuff\libraries\apis.
 The mockup was created using [Figma](https://www.figma.com/)
 
 Full PowerPoint Presentation [Here](https://github.com/vladpr31/MeRing/blob/main/IoT.pdf)
+
+Tech Used:
+Photoshop to create Logos.
+ReactJS,
+ScrollJS,
+Bootstrap.
+
+
+Need to do:
+
+- Fix mobile responsiveness.
