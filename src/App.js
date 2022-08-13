@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import ReactFullpage from "@fullpage/react-fullpage";
+
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Services from "./Components/AboutServices/Services";

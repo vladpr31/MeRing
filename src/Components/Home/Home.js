@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Hero from "../Hero/Hero";
+import { Link } from "react-scroll";
+
 import "./Home.css";
 function Home() {
   return (
@@ -10,7 +12,18 @@ function Home() {
           <span className="highlight">MeRing a Life Savior.</span>
         </h1>
         <h3>A health tracker which allows constant vitals monitoring.</h3>
-        <button className="readMoreBtn">Read More</button>
+        <button className="readMoreBtn">
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+          >
+            Read More
+          </Link>
+        </button>
       </div>
       <div className="cold-md-6 rightSide">
         <Hero />

@@ -26,19 +26,20 @@ const Header = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={100}
               duration={500}
             >
               Home
             </Link>
           </li>
+
           <li>
             <Link
               activeClass="active"
               to="about"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={100}
               duration={500}
             >
               About
@@ -50,7 +51,7 @@ const Header = () => {
               to="services"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
             >
               Services
@@ -62,7 +63,7 @@ const Header = () => {
               to="showcase"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
             >
               Showcase
@@ -71,20 +72,28 @@ const Header = () => {
           <li>
             <Link
               activeClass="active"
-              to="contact"
+              to="subscription"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
+              duration={500}
+            >
+              Pricing
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={100}
               duration={500}
             >
               Contact Us
             </Link>
           </li>
         </nav>
-        <div className="hamburger-menu">
-          <span className="burger"></span>
-          <span className="burger"></span>
-        </div>
       </div>
     </motion.div>
   );
